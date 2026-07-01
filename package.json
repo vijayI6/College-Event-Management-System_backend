@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for college event management system",
+  "homepage": "https://github.com/vijayI6/College-Event-Management-System#readme",
+  "bugs": {
+    "url": "https://github.com/vijayI6/College-Event-Management-System/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijayI6/College-Event-Management-System.git"
+  },
+  "license": "ISC",
+  "author": "Vijay and Rishi",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
