@@ -1,1 +1,2 @@
-# College-Event-Management-Systemm
+# College-Event-Management-System
+-by Vijay and Rishi
