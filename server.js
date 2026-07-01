@@ -7,5 +7,5 @@ dotenv.config();
 
 const port = process.env.PORT ||5000
 app.listen(port, () => {
-    console.log("Server is running by rishi.....");
+    console.log("Server is running....");
 })
