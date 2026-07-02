@@ -35,6 +35,12 @@ const userSchema = new mongoose.Schema(
             enum: ['student', 'admin'],
             default: 'student',
         },
+        registeredEvents: [
+            {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: 'Event',
+            },
+        ],
     },
     {
         timestamps: true,
