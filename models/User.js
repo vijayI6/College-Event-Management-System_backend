@@ -41,6 +41,12 @@ const userSchema = new mongoose.Schema(
                 ref: 'Event',
             },
         ],
+        resetPasswordToken: {
+            type: String,
+        },
+        resetPasswordExpire: {
+            type: Date,
+        },
     },
     {
         timestamps: true,
